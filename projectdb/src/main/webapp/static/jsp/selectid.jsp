@@ -14,7 +14,7 @@
     <title>Title</title>
 </head>
 <body>
-<form action="/insertBill" method="post">
+<form action="/toupdateProject" method="post">
     <table border="1px">
         <tr>
             <td style="text-align: center">申报项目信息</td>

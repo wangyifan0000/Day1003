@@ -34,7 +34,7 @@ public class ProjectinfoController {
         model.addAttribute("projectdb",projectinfo);
         return "toselect";
     }
-    @RequestMapping("/")
+    @RequestMapping("/toupdateProject")
     public  String toupdateProject(Date startdate,Date enddate,String projectname,int id,int status,Model model){
         Projectinfo projectinfo = new Projectinfo();
         projectinfo.setId(id);
